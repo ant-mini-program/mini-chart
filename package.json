@@ -1,0 +1,32 @@
+{
+  "name": "mini-chart",
+  "version": "0.0.1",
+  "description": "小程序图表库",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ant-mini-program/mini-chart.git"
+  },
+  "keywords": [
+    "mini-program",
+    "charts"
+  ],
+  "bugs": {
+    "url": "https://github.com/ant-mini-program/mini-chart/issues"
+  },
+  "homepage": "https://github.com/ant-mini-program/mini-chart#readme",
+  "dependencies": {
+    "@antv/my-f2": "~1.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.3.0",
+    "babel-loader": "^8.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-ali": "^3.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.0"
+  },
+  "scripts": {
+  }
+}
