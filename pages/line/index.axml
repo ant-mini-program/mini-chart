@@ -2,5 +2,8 @@
   <line
     categories="{{categories}}"
     series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    legend="{{legend}}"
   />
 </view>
