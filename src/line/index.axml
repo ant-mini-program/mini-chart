@@ -1,0 +1,10 @@
+<view class="am-mc-line">
+  <canvas
+    id="am-mc-line-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

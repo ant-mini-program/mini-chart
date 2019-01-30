@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/line/index"
+  ],
+  "window": {
+    "defaultTitle": "小程序图表组件库"
+  }
+}

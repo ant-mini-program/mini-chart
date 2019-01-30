@@ -1,0 +1,6 @@
+<view class="line">
+  <line
+    categories="{{categories}}"
+    series="{{series}}"
+  />
+</view>
