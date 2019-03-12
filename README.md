@@ -25,25 +25,25 @@
 
 ### API
 
-#### `categories`: Array<String>
+#### `categories`: Array\<String>
 
 x坐标列表，等同全部数据的宽度。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 线的数据，可以为多条线。如果只有一条线，整体也应该是个数组。
 
-* data: Array<int> 线的数据，一般等同`categories`的长度，空缺则线段不连接不绘。
+* data: Array\<int> 线的数据，一般等同`categories`的长度，空缺则线段不连接不绘。
 * type: String 一条线的标识名称，多条时确保不冲突。
 * style: String 线的种类，可以取值`dash`虚线和`smooth`曲线，默认直接。
 * color: String 线的颜色。
 * point: Object 是否绘制圆点，可以配置`size`控制点半径、`stroke`点颜色、`lineWidth`点边线宽。
 
-#### `padding`: int/Array<int>
+#### `padding`: int/Array\<int>
 
 图形内边距，同css。以下所有图形均有。
 
-#### `appendPadding`: int/Array<int>
+#### `appendPadding`: int/Array\<int>
 
 图表画布区域四边的预留边距，即我们会在`padding`的基础上，为四边再加上`appendPadding`的数值，默认为`15`。
 
@@ -85,15 +85,15 @@ y坐标轴的配置，同`xAxis`。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*mbA2S7xIHyAAAAAAAAAAAABjARQnAQ)
 
-#### `categories`: Array<String>
+#### `categories`: Array\<String>
 
 x坐标列表，等同全部数据的宽度。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 区域的数据，可以为多个区域。如果只有一个区域，整体也应该是个数组。
 
-* data: Array<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
+* data: Array\<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
 * type: String 一个区域的标识名称，多个时确保不冲突。
 * style: String 区域边线的种类，可以取值`dash`虚线和`smooth`曲线，默认直接。
 * color: String 区域和边线的颜色。
@@ -142,17 +142,17 @@ y坐标轴的配置，同`xAxis`。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*yJkRT7Q8l2YAAAAAAAAAAABjARQnAQ)
 
-#### `categories`: Array<String>
+#### `categories`: Array\<String>
 
 x坐标列表，等同全部数据的宽度。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 柱形的数据，可以为多类柱形。如果只有一类，整体也应该是个数组。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
-* data: Array<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
+* data: Array\<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
 * type: String 一类柱形的标识名称，多类时确保不冲突。
 * color: String 柱形的颜色。
 
@@ -218,17 +218,17 @@ y坐标轴的配置，同`xAxis`。
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*9VM4SIYvSDUAAAAAAAAAAABjARQnAQ)
 
 
-#### `categories`: Array<String>
+#### `categories`: Array\<String>
 
 x坐标列表，等同全部数据的宽度。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 柱形的数据，可以为多类柱形。如果只有一类，整体也应该是个数组。
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
-* data: Array<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
+* data: Array\<int> 区域的数据，一般等同`categories`的长度，空缺则区域不连接不绘。
 * type: String 一类柱形的标识名称，多类时确保不冲突。
 * style: String 区域边线的种类，可以取值`dash`虚线和`smooth`曲线，默认直接。
 * color: String 区域和边线的颜色。
@@ -270,7 +270,7 @@ y坐标轴的配置。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*ohEpSJMkX8QAAAAAAAAAAABjARQnAQ)
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 一维。
 
@@ -334,7 +334,7 @@ y坐标轴的配置。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*nWZ4S7j-fQsAAAAAAAAAAABjARQnAQ)
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 一维。
 
@@ -365,11 +365,11 @@ y坐标轴的配置。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*JSrHQ7rYY7sAAAAAAAAAAABjARQnAQ)
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 点的数据，可以为多组点。如果只有一组点，整体也应该是个数组。
 
-* data: Array<Object> 点的数据。
+* data: Array\<Object> 点的数据。
   * key: Number x坐标值。
   * value: Number y坐标值。
 * type: String 一组点的标识名称，多组时确保不冲突。
@@ -416,7 +416,7 @@ y坐标轴的配置，同`xAxis`。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*SG8_SKBmoG0AAAAAAAAAAABjARQnAQ)
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 一维。
 
@@ -446,7 +446,7 @@ y坐标轴的配置，同`xAxis`。
 
 ![avatar](https://gw.alipayobjects.com/mdn/wealth_pro/afts/img/A*Td-MRac7nVoAAAAAAAAAAABjARQnAQ)
 
-#### `series`: Array<Object>
+#### `series`: Array\<Object>
 
 一维。
 
