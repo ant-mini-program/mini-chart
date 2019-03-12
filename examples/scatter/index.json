@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "scatter",
+  "usingComponents": {
+    "scatter": "../../components/scatter/index"
+  }
+}

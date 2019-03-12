@@ -1,0 +1,14 @@
+<view class="pie">
+  <pie
+    radius="{{radius}}"
+    innerRadius="{{innerRadius}}"
+    series="{{series}}"
+    legend="{{legend}}"
+    cascade="{{cascade}}"
+    pieLabel="{{pieLabel}}"
+    sidePadding="{{sidePadding}}"
+    activeShape="{{activeShape}}"
+    tooltip="{{tooltip}}"
+    style="{{style}}"
+  />
+</view>

@@ -1,0 +1,10 @@
+<view class="ring">
+  <pie
+    radius="{{radius}}"
+    innerRadius="{{innerRadius}}"
+    series="{{series}}"
+    legend="{{legend}}"
+    guide="{{guide}}"
+    style="{{style}}"
+  />
+</view>

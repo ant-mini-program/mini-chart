@@ -1,0 +1,11 @@
+<view class="radar">
+  <radar
+    categories="{{categories}}"
+    series="{{series}}"
+    guide="{{guide}}"
+    fund="{{fund}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    legend="{{legend}}"
+  />
+</view>

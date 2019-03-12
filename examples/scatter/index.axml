@@ -1,0 +1,11 @@
+<view class="scatter">
+  <scatter
+    radius="{{radius}}"
+    series="{{series}}"
+    legend="{{legend}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    tooltip="{{tooltip}}"
+    style="{{style}}"
+  />
+</view>

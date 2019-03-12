@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "timeshare",
+  "usingComponents": {
+    "timeshare": "../../components/timeshare/index"
+  }
+}

@@ -1,0 +1,10 @@
+<view class="am-mc-rose">
+  <canvas
+    id="am-mc-rose-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

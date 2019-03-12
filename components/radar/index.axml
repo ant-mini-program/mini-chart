@@ -1,0 +1,9 @@
+<view class="am-mc-radar">
+  <view a:if="{{fund}}" class="panel">
+    <button a:for="{{series}}" a:for-item="tag" a:key="{{tag.type}}" class="{{index === currentTag ? 'active' : ''}}">
+      <text onTap="changeData" data-page="{{index}}"> {{tag.type}} 
+      </text>
+    </button>
+  </view>
+  <canvas id="am-mc-radar-{{$id}}" height="{{height}}" width="{{width}}" onTouchStart="touchStart" onTouchMove="touchMove" onTouchEnd="touchEnd" />
+</view>

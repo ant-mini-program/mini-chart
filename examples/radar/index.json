@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "radar",
+  "usingComponents": {
+    "radar": "../../components/radar/index"
+  }
+}

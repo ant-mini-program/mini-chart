@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "pie",
+  "usingComponents": {
+    "pie": "../../components/pie/index"
+  }
+}

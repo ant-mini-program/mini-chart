@@ -1,0 +1,10 @@
+<view class="am-mc-area">
+  <canvas
+    id="am-mc-area-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

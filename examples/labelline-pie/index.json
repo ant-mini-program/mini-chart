@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "labelline-pie",
+  "usingComponents": {
+    "pie": "../../components/pie/index"
+  }
+}

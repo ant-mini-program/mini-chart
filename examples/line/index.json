@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "line",
+  "usingComponents": {
+    "line": "../../components/line/index"
+  }
+}

@@ -1,0 +1,10 @@
+<view class="bubble">
+  <bubble
+    categories="{{categories}}"
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    legend="{{legend}}"
+    grid="{{grid}}"
+  />
+</view>

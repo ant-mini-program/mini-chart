@@ -1,0 +1,9 @@
+<view class="timeshare">
+  <timeshare
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    tooltip="{{tooltip}}"
+    guide="{{guide}}"
+  />
+</view>

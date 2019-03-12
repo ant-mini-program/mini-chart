@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "dodge-bar",
+  "usingComponents": {
+    "column": "../../components/column/index"
+  }
+}

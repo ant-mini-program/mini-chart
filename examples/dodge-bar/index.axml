@@ -1,0 +1,12 @@
+<view class="column">
+  <column
+    categories="{{categories}}"
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    tooltip="{{tooltip}}"
+    legend="{{legend}}"
+    adjust="{{adjust}}"
+    coord="{{coord}}"
+  />
+</view>

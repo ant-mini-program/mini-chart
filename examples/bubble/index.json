@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "bubble",
+  "usingComponents": {
+    "bubble": "../../components/bubble/index"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "column",
+  "usingComponents": {
+    "column": "../../components/column/index"
+  }
+}

@@ -1,0 +1,10 @@
+<view class="am-mc-bubble">
+  <canvas
+    id="am-mc-bubble-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

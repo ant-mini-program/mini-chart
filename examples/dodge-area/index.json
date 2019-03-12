@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "dodge-area",
+  "usingComponents": {
+    "area": "../../components/area/index"
+  }
+}

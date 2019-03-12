@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "examples/index/index",
+    "examples/line/index",
+    "examples/area/index",
+    "examples/dodge-area/index",
+    "examples/stack-area/index",
+    "examples/column/index",
+    "examples/dodge/index",
+    "examples/stack-column/index",
+    "examples/bar/index",
+    "examples/dodge-bar/index",
+    "examples/stack-bar/index",
+    "examples/radar/index",
+    "examples/radar-fund/index",
+    "examples/pie/index",
+    "examples/radial-bar/index",
+    "examples/labelline-pie/index",
+    "examples/ring/index",
+    "examples/rose/index",
+    "examples/scatter/index",
+    "examples/bubble/index",
+    "examples/k/index",
+    "examples/timeshare/index"
+  ],
+  "window": {
+    "defaultTitle": "小程序图表组件库"
+  }
+}

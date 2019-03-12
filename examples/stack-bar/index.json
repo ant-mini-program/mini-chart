@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "stack-bar",
+  "usingComponents": {
+    "column": "../../components/column/index"
+  }
+}

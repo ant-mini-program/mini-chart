@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "dodge",
+  "usingComponents": {
+    "column": "../../components/column/index"
+  }
+}
