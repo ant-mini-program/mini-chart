@@ -1,5 +1,5 @@
 {
-  "name": "@alipay/mini-chart",
+  "name": "mini-chart",
   "version": "0.1.5",
   "description": "小程序图表库",
   "repository": {
