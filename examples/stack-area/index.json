@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "stack-area",
+  "usingComponents": {
+    "area": "../../components/area/index"
+  }
+}

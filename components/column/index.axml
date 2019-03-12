@@ -1,0 +1,10 @@
+<view class="am-mc-column">
+  <canvas
+    id="am-mc-column-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

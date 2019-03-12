@@ -1,0 +1,11 @@
+<view class="area">
+  <area
+    categories="{{categories}}"
+    series="{{series}}"
+    xAxis="{{xAxis}}"
+    yAxis="{{yAxis}}"
+    tooltip="{{tooltip}}"
+    legend="{{legend}}"
+    adjust="{{adjust}}"
+  />
+</view>

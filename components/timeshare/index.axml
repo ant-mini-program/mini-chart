@@ -1,0 +1,20 @@
+<view class="am-mc-timeshare">
+  <canvas
+    class="am-mc-timeshare-area"
+    id="am-mc-timeshare-area-{{$id}}"
+    height="{{heightArea}}"
+    width="{{widthArea}}"
+    onTouchStart="touchStartArea"
+    onTouchMove="touchMoveArea"
+    onTouchEnd="touchEndArea"
+  />
+  <canvas
+    class="am-mc-timeshare-column"
+    id="am-mc-timeshare-column-{{$id}}"
+    height="{{heightColumn}}"
+    width="{{widthColumn}}"
+    onTouchStart="touchStartColumn"
+    onTouchMove="touchMoveColumn"
+    onTouchEnd="touchEndColumn"
+  />
+</view>

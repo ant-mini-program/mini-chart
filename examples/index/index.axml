@@ -1,0 +1,6 @@
+<view class="container">
+    <view a:for="{{charts}}" a:for-item="chart" a:key="{{chart.name}}" class="list-item">
+        <image src="../img/{{chart.name}}.png" data-page="{{chart.name}}" mode="aspectFit" onTap="gotoPage"></image>
+        {{chart.value}}
+    </view>
+</view>

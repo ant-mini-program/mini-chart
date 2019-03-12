@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "stack-column",
+  "usingComponents": {
+    "column": "../../components/column/index"
+  }
+}

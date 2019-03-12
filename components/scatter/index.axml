@@ -1,0 +1,10 @@
+<view class="am-mc-scatter">
+  <canvas
+    id="am-mc-scatter-{{$id}}"
+    height="{{height}}"
+    width="{{width}}"
+    onTouchStart="touchStart"
+    onTouchMove="touchMove"
+    onTouchEnd="touchEnd"
+  />
+</view>

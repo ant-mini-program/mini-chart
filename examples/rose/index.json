@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "rose",
+  "usingComponents": {
+    "rose": "../../components/rose/index"
+  }
+}

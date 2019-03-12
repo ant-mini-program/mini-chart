@@ -1,0 +1,45 @@
+.am-mc-radar {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.panel {
+  text-align: center;
+}
+
+.panel button {
+  outline: 0;
+  line-height: 24px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 0 7px;
+  font-size: 12px;
+  border-radius: 2px;
+  height: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  color: rgba(0, 0, 0, .65);
+  background-color: #fff;
+  border-color: #d9d9d9;
+}
+
+.panel button.active {
+  color: #fff;
+  background-color: #FE5C5B;
+  border-color: #FE5C5B;
+}

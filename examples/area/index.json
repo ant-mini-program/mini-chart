@@ -1,0 +1,6 @@
+{
+  "defaultTitle": "area",
+  "usingComponents": {
+    "area": "../../components/area/index"
+  }
+}
