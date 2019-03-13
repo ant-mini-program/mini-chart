@@ -65,7 +65,9 @@ Component({
     chart.source(data);
 
     if(xAxis) {
-      xAxis.label = util.label;
+      if(xAxis.htAlign) {
+        xAxis.label = util.label;
+      }
       chart.scale('time', util.scale(xAxis));
       chart.axis('time', util.axis(xAxis));
     }

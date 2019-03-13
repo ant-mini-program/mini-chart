@@ -84,11 +84,13 @@ Component({
       chart.coord(coord);
     }
     if(xAxis) {
-      if(!coord || !coord.transposed) {
-        xAxis.label = util.label;
-      }
-      else {
-        yAxis.label = util.label;
+      if(xAxis.htAlign) {
+        if(!coord || !coord.transposed) {
+          xAxis.label = util.label;
+        }
+        else {
+          yAxis.label = util.label;
+        }
       }
       chart.scale('key', util.scale(xAxis));
       chart.axis('key', util.axis(xAxis));

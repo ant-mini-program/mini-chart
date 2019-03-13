@@ -101,7 +101,9 @@ Component({
 
     //配置坐标轴的伸长比
     if (xAxis) {
-      xAxis.label = util.label;
+      if(xAxis.htAlign) {
+        xAxis.label = util.label;
+      }
       chart.scale('key', util.scale(xAxis));
     }
     if (yAxis) {

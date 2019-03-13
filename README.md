@@ -52,6 +52,7 @@ x坐标列表，等同全部数据的宽度。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object
@@ -104,6 +105,7 @@ x坐标列表，等同全部数据的宽度。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object
@@ -161,6 +163,7 @@ x坐标列表，等同全部数据的宽度。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object
@@ -381,6 +384,7 @@ y坐标轴的配置。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object
@@ -431,6 +435,7 @@ y坐标轴的配置，同`xAxis`。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object
@@ -459,6 +464,7 @@ y坐标轴的配置，同`xAxis`。
 x坐标轴的配置。
 
 * tickCount: int 显示的坐标个数。
+* htAlign: boolean 是否首尾缩进对齐。
 * 更多设置详见F2。
 
 #### `yAxis`: Object

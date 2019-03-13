@@ -132,7 +132,9 @@ Component({
     areaChart.source(data);
 
     if(xAxis) {
-      xAxis.label = util.label;
+      if(xAxis.htAlign) {
+        xAxis.label = util.label;
+      }
       areaChart.scale('key', util.scale(xAxis));
       areaChart.axis('key', util.axis(xAxis));
     }
