@@ -1,6 +1,6 @@
 {
   "name": "mini-chart",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "小程序图表库",
   "repository": {
     "type": "git",
@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/ant-mini-program/mini-chart#readme",
   "dependencies": {
-    "@alipay/tracert-ta": "^0.1.4",
     "@antv/my-f2": "~1.1.5"
   },
   "devDependencies": {
