@@ -50,7 +50,6 @@ function tracert(type, appId, url) {
     param1: url,
     param4: {
       chInfo: '',
-      mdata: {},
       type,
       appId,
       url,
