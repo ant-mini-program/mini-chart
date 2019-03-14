@@ -42,6 +42,21 @@ function label(text, index, total) {
 }
 
 function tracert(type, appId, url) {
+  my.call('remotelog', {
+    type: 'monitor',
+    bizType: 'FORTUNEAPP',
+    logLevel: 2, // 1 - high, 2 - medium, 3 - low
+    actionId: 'exposure',
+    param1: url,
+    param4: {
+      chInfo: '',
+      mdata: {},
+      type,
+      appId,
+      url,
+    },
+    spmId: 'a945.b10625.c25441.d47746',
+  });
 }
 
 export default {
