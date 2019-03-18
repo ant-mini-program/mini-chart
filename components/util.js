@@ -1,5 +1,3 @@
-import tracertTa from '@alipay/tracert-ta';
-
 function scale(obj) {
   let key = ['range', 'tickCount', 'max', 'min', 'mask', 'type', 'nice', 'ticks'];
   let res = {};
