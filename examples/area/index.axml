@@ -1,4 +1,4 @@
-<view class="area">
+<view class="{{cn}}">
   <area
     categories="{{categories}}"
     series="{{series}}"

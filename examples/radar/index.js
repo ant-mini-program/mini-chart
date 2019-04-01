@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'radar',
     categories: ["Design", "Development", "Marketing", "Users", "Test", "Language", "Technology", "Support"],
     series: [
       {
@@ -28,5 +29,13 @@ Page({
       position: 'top',
       offsetY: 5
     },
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'radar size',
+        categories: ["Design", "Development", "Marketing", "Users", "Test", "Language", "Technology", "Support"],
+      });
+    }, 2000);
   },
 });

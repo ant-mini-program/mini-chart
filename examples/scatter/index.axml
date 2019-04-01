@@ -1,4 +1,4 @@
-<view class="scatter">
+<view class="{{cn}}">
   <scatter
     radius="{{radius}}"
     series="{{series}}"

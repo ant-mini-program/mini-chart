@@ -1,9 +1,8 @@
 <view class="{{cn}}">
-  <radar
-    categories="{{categories}}"
+  <k
     series="{{series}}"
     xAxis="{{xAxis}}"
     yAxis="{{yAxis}}"
-    legend="{{legend}}"
+    guide="{{guide}}"
   />
 </view>

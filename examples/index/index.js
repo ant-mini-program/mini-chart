@@ -30,14 +30,5 @@ Page({
     });
   },
   onReady: function() {
-    my.call('addNotifyListener', {
-      name: 'NEBULANOTIFY_TEST_EVENT',
-    }, function() {
-      console.log(123)
-    });
-    my.call('postNotification', {
-      name: 'TEST_EVENT',
-      data: {},
-    });
   },
 });
