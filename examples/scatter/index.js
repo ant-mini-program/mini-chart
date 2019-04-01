@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'scatter',
     series: [
       {
         type: 'female',
@@ -119,5 +120,14 @@ Page({
     legend: {
       position: 'top',
     },
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'scatter size',
+        legend: {
+          position: 'top',
+        },      });
+    }, 2000);
   },
 });

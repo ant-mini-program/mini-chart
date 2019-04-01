@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'pie',
     series: [
       {
         color: '#F00',
@@ -27,7 +28,7 @@ Page({
         data: 0.02
       },
     ],
-    radius: 0.6,
+    radius: 0.7,
     style: {
       lineWidth: 2,
       stroke: '#fff',
@@ -36,5 +37,13 @@ Page({
       position: 'top',
     },
     tooltip:true
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'pie size',
+        radius: 0.6,
+      });
+    }, 2000);
   },
 });

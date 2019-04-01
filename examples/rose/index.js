@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'rose',
     series: [
       {
         color: '#F00',
@@ -34,5 +35,14 @@ Page({
     legend: {
       position: 'top',
     },
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'rose size',
+        legend: {
+          position: 'top',
+        },      });
+    }, 2000);
   },
 });

@@ -1,4 +1,4 @@
-<view class="pie">
+<view class="{{cn}}">
   <pie
     radius="{{radius}}"
     innerRadius="{{innerRadius}}"

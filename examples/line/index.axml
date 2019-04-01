@@ -1,4 +1,4 @@
-<view class="line">
+<view class="{{cn}}">
   <line
     categories="{{categories}}"
     series="{{series}}"

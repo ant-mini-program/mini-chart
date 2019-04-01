@@ -1,4 +1,4 @@
-<view class="bubble">
+<view class="{{cn}}">
   <bubble
     categories="{{categories}}"
     series="{{series}}"

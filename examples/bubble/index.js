@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'bubble',
     series: [
       {
         xExtAlias:'gr3',//x轴坐标补充文字
@@ -64,5 +65,13 @@ Page({
       tickCount: 4,
     },
     grid: true, //是否展示网格辅助线
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'bubble size',
+        grid: false,
+      });
+    }, 2000);
   },
 });

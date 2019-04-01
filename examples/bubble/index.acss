@@ -4,5 +4,8 @@
   left:0;
   top:0;
   width:100%;
+  height:50%;
+}
+.size{
   height:100%;
 }

@@ -1,5 +1,6 @@
 Page({
   data: {
+    cn: 'timeshare',
     series: [{"time": "09:30", "price": 3.51, "volume": 3607}, {
       "time": "09:31",
       "price": 3.55,
@@ -515,5 +516,15 @@ Page({
         },
       },
     },
+  },
+  onReady() {
+    setTimeout(() => {
+      this.setData({
+        cn: 'timeshare size',
+        xAxis: {
+          tickCount: 3,
+        },
+      });
+    }, 2000);
   },
 });
