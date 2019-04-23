@@ -13,6 +13,7 @@ function render(chart, props, width, height) {
       return {
         key: categories[i],
         value: item,
+        type: series[0].type,
       }
     });
   }
