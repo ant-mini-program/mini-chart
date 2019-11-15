@@ -6,6 +6,9 @@ const BLUE = '#1890ff';
 const TEXTBLUE = '#1890FF';
 
 function render(chart, props, width, height) {
+  if(!chart) {
+    return;
+  }
   const { series, xAxis, yAxis, tooltip, grid } = props;
 
   chart.clear();
