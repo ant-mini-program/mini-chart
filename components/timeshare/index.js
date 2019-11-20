@@ -3,6 +3,9 @@ import methods from '../mixins/methods';
 import util from '../util';
 
 function render(areaChart, columnChart, props, widthArea, heightArea, widthColumn, heightColumn) {
+  if(!chart) {
+    return;
+  }
   const { series, xAxis, yAxis, tooltip, guide, } = props;
 
   areaChart.clear();

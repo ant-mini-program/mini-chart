@@ -3,6 +3,9 @@ import methods from '../mixins/methods';
 import util from '../util';
 
 function render(chart, props, width, height) {
+  if(!chart) {
+    return;
+  }
   const { series, legend, style, radius, innerRadius, tooltip, guide, cascade, pieLabel, sidePadding, activeShape } = props;
 
   chart.clear();
